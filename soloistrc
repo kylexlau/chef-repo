@@ -1,0 +1,8 @@
+#  LOG_LEVEL=debug soloist
+#  soloist run_recipe pivotal_workstation::sublime_text
+
+cookbook_paths:
+- cookbooks
+
+recipes:
+- pivotal_workstation::sshd_on

@@ -8,6 +8,9 @@ site 'http://community.opscode.com/api/v1'
 cookbook 'dmg'
 cookbook 'homebrew'
 
+cookbook 'pivotal_workstation',
+  :git => 'https://github.com/pivotal/pivotal_workstation'
+
 # cookbook 'chef-client'
 
 # cookbook 'apache2', '>= 1.0.0'
