@@ -1,8 +1,21 @@
-#  LOG_LEVEL=debug soloist
-#  soloist run_recipe pivotal_workstation::sublime_text
+# How to use soloist?
+# - LOG_LEVEL=debug soloist
+# - soloist run_recipe pivotal_workstation::sublime_text
 
 cookbook_paths:
 - cookbooks
 
 recipes:
 - pivotal_workstation::sshd_on
+- pivotal_workstation::locate_on
+
+- pivotal_workstation::zsh
+- pivotal_workstation::zsh_completions
+- pivotal_workstation::zsh_lovers
+
+- pivotal_workstation::bash4
+- pivotal_workstation::bash_completion
+- pivotal_workstation::bash_it
+
+- pivotal_workstation::homebrew
+- pivotal_workstation::git
